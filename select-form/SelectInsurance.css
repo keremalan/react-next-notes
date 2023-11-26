@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 24px;
+    width: 65%;
+}
+
+ul > button {
+    margin: 4px 0;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    background-color: #e5e5e5;
+    color: black;
+}
+
+ul > li {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    width: 80%;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+.description {
+    display: block;
+    font-size: 12px;
+    opacity: 0.7;
+    text-wrap: wrap;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+.selected {
+    border: 2px solid blue;
+}
+
+.next-button {
+    height: 48px;
+    width: 65%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
